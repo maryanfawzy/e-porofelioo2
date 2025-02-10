@@ -1466,13 +1466,14 @@ footer{
   }
   
   .about-me__picture--mask {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
     margin-bottom: 28px;
     animation: animate-profile-picture 800ms 200ms backwards;
+
   }
   
   @keyframes animate-profile-picture {
@@ -1486,14 +1487,7 @@ footer{
       transform: scale(1);
     }
   }
-  
-  .about-me__picture {
-  
-    /* Improving my own picture */
-    transform: scale(1.5);
-    padding-top: 8px;
-  }
-  
+ 
   .about-me__info--title {
     margin-bottom: 16px;
     animation: fade-up 650ms 400ms backwards;
@@ -1544,4 +1538,14 @@ footer{
     }
   }
 
- 
+  .about-me__picture {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    width: 88%;
+    object-fit: cover;
+    padding: 10px;
+    padding-bottom: 250px;
+    padding-top: 20px;
+
+   
+  }
