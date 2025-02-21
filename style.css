@@ -1471,7 +1471,7 @@ footer{
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
-    margin-bottom: 28px;
+    margin-bottom: 30px; 
     animation: animate-profile-picture 800ms 200ms backwards;
 
   }
@@ -1538,14 +1538,14 @@ footer{
     }
   }
 
-  .about-me__picture {
+   .about-me__picture {
     margin-top: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     width: 88%;
     object-fit: cover;
-    padding: 10px;
-    padding-bottom: 250px;
-    padding-top: 20px;
+    padding-top: 10%;
+    padding-bottom:250px;
+
 
    
-  }
+  } 
